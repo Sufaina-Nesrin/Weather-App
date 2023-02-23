@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+    
+  }
+  
+  
+  
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+  }
+  
+  .title{
+    margin-top: 50px;
+    cursor:default;
+    font-family:Ubuntu,cursive,Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+  }
+  
+  .input-box-div{
+    margin-top: 50px;
+    font-size:50px;
+    position:relative;
+  }
+  
+  input{
+    font-size: 20px;
+    text-align: center;
+    padding: 18px 85px 18px 85px;
+    border:none;
+    border-radius:5px
+  }
+  
+  input:focus{
+    outline: none;
+    
+  }
+  
+  .addButton{
+    background-color: transparent;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    bottom: 6px;
+    left: 342px;
+    font-size: 31px;
+  
+  }
+
+  .info{
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family:Ubuntu,cursive,Verdana, Geneva, Tahoma, sans-serif;
+    cursor:default;
+    
+    
+  }
+  
+  .info-2{
+    margin-block-start: 0;
+    margin-block-end:0;
+    cursor:default;
+    font-family: Roboto;
+    
+  }
+
+  .info-3{
+    margin-block-start: 2px;
+    font-family: Roboto;
+  }
